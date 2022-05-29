@@ -76,7 +76,7 @@ header .header-links {
 .content-four {
     display: flex;
     flex: 1;
-    padding: 50px 150px;
+    padding: 50px 25%;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
@@ -85,20 +85,24 @@ header .header-links {
 .content-one {
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
-    padding-top: 140px;
-    padding-bottom: 192px;
+    padding-top: 80px;
+    padding-bottom: 150px;
     background-image: url(./images/spruce-cropped.png);
     background-repeat: no-repeat;
-    background-position: 90% 0px;
+    background-position: 67% 0px;
     justify-content: center;
     align-items: flex-start;
     line-height: 12px;
 }
 
+.content h1 {
+    font-size: 50px;
+}
+
 .content-one .hero-bar {
     margin-top: 20px;
     margin-bottom: 32px;
-    padding: 8px 150px;
+    padding: 8px 120px;
     background-color: #EF4038;
 }
 
@@ -123,10 +127,49 @@ a, h1, h3 {
 
 .content-two {
     background-color: rgb(255, 245, 245);
+    padding-bottom: 0;
 }
 
 .content-two h3, .content-two p {
     color: rgb(156, 94, 94);
+}
+
+.content-two .images-wrapper {
+    display: flex;
+    height: 300px;
+    width: 900px;
+    flex-flow: column wrap;
+    align-content: center;
+    column-gap: 20%;
+    margin-top: 40px;
+}
+
+.content-two img, .content-two p {
+    flex-shrink: 0;
+    
+}
+
+.content-two img { 
+    border: solid;
+    border-color: #dda19e;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.content-two .img4 { 
+    padding: 40px;
+}
+
+.content-two p {
+    text-align: center;
+    width: 150px;
+}
+
+.content-three, .content-four {
+    color: rgb(107, 63, 63);
 }
 
 .content-three {
@@ -136,6 +179,7 @@ a, h1, h3 {
 
 .content-four {
     background-color: rgb(255, 126, 126);
+    
 }
 
 footer {
