@@ -1,6 +1,11 @@
 html {
     background-color: white;
     font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -24,14 +29,14 @@ ul {
 .header {
     display: flex;
     flex-flow: row nowrap;
-    flex: 1;
+    flex-shrink: 0;
     height: 50px;
     padding: 20px;
     
 }
 
 .header a {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .header-links {
@@ -50,7 +55,10 @@ ul {
 }
 
 .content {
-    
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    background-color: red;
 }
 
 .content-one {
@@ -66,4 +74,9 @@ ul {
 
 .content-four {
     
+}
+
+.footer {
+    flex-shrink: 0;
+    height: 50px;
 }
