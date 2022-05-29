@@ -17,7 +17,10 @@ body {
 
 a {
     text-decoration: none;
-    
+}
+
+a:hover {
+    color:#EF4038;
 }
 
 ul {
@@ -37,7 +40,7 @@ header {
     height: 90px;
     padding: 20px;
 
-    background-color: rgb(255, 237, 237);
+    background-color: rgb(255, 255, 255);
 }
 
 header a {
@@ -80,7 +83,8 @@ header .header-links {
 }
 
 .content-one {
-    background-color: rgb(255, 237, 237);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
     padding-top: 140px;
     padding-bottom: 192px;
     background-image: url(./images/spruce-cropped.png);
@@ -92,21 +96,25 @@ header .header-links {
 }
 
 .content-one .hero-bar {
-    margin-top: 8px;
+    margin-top: 20px;
+    margin-bottom: 32px;
     padding: 8px 150px;
     background-color: #EF4038;
 }
 
 .content-one .hero-button {
-    font-size: 8px;
-    margin-top: 16px;
+    border: solid;
+    padding: 15px;
+    font-size: 18px;
+    
     border-radius: 10px;
     background-color: transparent;
 }
 
-.content button:hover {
+.content .hero-button:hover {
     background-color: white;
-    border-color: white;
+    border-color: #EF4038;
+    color: #EF4038;
 }
 
 a, h1, h3 {
@@ -114,15 +122,20 @@ a, h1, h3 {
 }
 
 .content-two {
-    
+    background-color: rgb(255, 245, 245);
+}
+
+.content-two h3, .content-two p {
+    color: rgb(156, 94, 94);
 }
 
 .content-three {
+    background-color: rgb(255, 179, 179);
     
 }
 
 .content-four {
-    
+    background-color: rgb(255, 126, 126);
 }
 
 footer {
@@ -138,6 +151,10 @@ footer {
 
 footer a {
     color: rgb(92, 91, 91);
+}
+
+footer a:hover {
+    color: rgb(26, 26, 26);
 }
 
 footer p {
