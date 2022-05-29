@@ -17,7 +17,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #EF4038;
+    
 }
 
 ul {
@@ -30,18 +30,21 @@ ul {
     display: flex;
     flex-flow: row nowrap;
     flex-shrink: 0;
-    height: 50px;
+    height: 90px;
     padding: 20px;
     
 }
 
 .header a {
     font-size: 18px;
+    font-weight: 500;
+    color: #EF4038;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
+    justify-content: center;
     align-items: center;
     margin-right: 20px;
 }
@@ -58,10 +61,22 @@ ul {
     display: flex;
     flex: 1;
     flex-flow: column nowrap;
-    background-color: red;
+}
+
+.content-one,
+.content-two,
+.content-three,
+.content-four {
+    display: flex;
+    flex: 1;
+    padding: 50px 150px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
 }
 
 .content-one {
+    background-image: url(./images/spruce-hero.png);
 }
 
 .content-two {
@@ -76,7 +91,22 @@ ul {
     
 }
 
-.footer {
+.footer-1 {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #E1E3E4;
     flex-shrink: 0;
-    height: 50px;
+    padding: 40px;
+    gap: 16px;
+    align-items: center;
+    
+}
+
+.footer-1 a {
+    color: rgb(92, 91, 91);
+}
+
+.footer-1 p {
+    margin-left: auto;
+    color: rgb(92, 91, 91);
 }
