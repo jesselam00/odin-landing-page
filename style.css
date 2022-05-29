@@ -26,19 +26,23 @@ ul {
     padding: 0;
 }
 
+button {
+    border-style: solid;
+}
+
 header {
     display: flex;
     flex-flow: row nowrap;
     flex-shrink: 0;
     height: 90px;
     padding: 20px;
-    
+
+    background-color: rgb(255, 237, 237);
 }
 
 header a {
     font-size: 18px;
     font-weight: 500;
-    color: #EF4038;
 }
 
 header .header-links {
@@ -76,7 +80,37 @@ header .header-links {
 }
 
 .content-one {
-    background-image: url(./images/spruce-hero.png);
+    background-color: rgb(255, 237, 237);
+    padding-top: 140px;
+    padding-bottom: 192px;
+    background-image: url(./images/spruce-cropped.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0px;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 12px;
+}
+
+.content-one .hero-bar {
+    margin-top: 8px;
+    padding: 8px 150px;
+    background-color: #EF4038;
+}
+
+.content-one .hero-button {
+    font-size: 8px;
+    margin-top: 16px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.content button:hover {
+    background-color: white;
+    border-color: white;
+}
+
+a, h1, h3 {
+    color: rgb(61, 61, 61);
 }
 
 .content-two {
