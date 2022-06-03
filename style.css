@@ -204,6 +204,7 @@ a, h1, h3 {
     background-color: rgb(255, 255, 255);
     justify-content: flex-start;
     align-items: center;
+    gap: 50px;
 }
 .content-four a {
     margin-left: auto;
