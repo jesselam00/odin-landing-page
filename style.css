@@ -306,12 +306,11 @@ footer p {
         padding: 50px 30px;
     }
     .content-four {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 60px 40px;
     }
     .content-four .wrapper{
-        height: 350px;
-        gap: 40px;
+        height: 320px;
+        gap: 20px;
     }
 
     footer .footer-links {
