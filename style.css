@@ -280,3 +280,17 @@ footer p {
     margin-left: auto;
     color: rgb(92, 91, 91);
 }
+
+@media only screen and (max-width: 540px) {
+    footer .footer-links {
+        padding-top: 50px;
+        flex-flow: column;
+        height: 300px;
+        width: auto;
+        row-gap: 20px;
+    }
+    footer p {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+}
