@@ -278,7 +278,7 @@ footer a:hover {
 
 footer p {
     margin-left: auto;
-    color: rgb(92, 91, 91);
+    color: rgb(61, 61, 61);
 }
 
 @media only screen and (max-width: 600px) {
@@ -321,7 +321,7 @@ footer p {
         row-gap: 10px;
     }
     footer p {
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 0;
     }
 }
