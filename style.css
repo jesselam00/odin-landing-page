@@ -204,9 +204,9 @@ a, h1, h3 {
     flex: 1;
     width: 900px;
     height: 200px;
-    padding: 50px;
+    padding: 0px 50px;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 245, 245);
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
@@ -251,7 +251,6 @@ a, h1, h3 {
         height: 300px;
         padding: 0px;
         text-align: center;
-        padding: 0px 50px;
         gap: 10px;
     }
     .content-four a {
@@ -313,6 +312,7 @@ footer p {
     }
     .content-four .wrapper{
         height: 320px;
+        padding: 0px 50px;
         gap: 20px;
     }
 
