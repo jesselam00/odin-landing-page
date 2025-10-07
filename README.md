@@ -1,5 +1,7 @@
 # odin-landing-page
 
+https://jesselam00.github.io/odin-landing-page/
+
 Landing Page for The Odin Project
 
 https://www.theodinproject.com/lessons/foundations-landing-page 
