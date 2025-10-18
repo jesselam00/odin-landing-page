@@ -1,6 +1,6 @@
 # landing-page
 
-[https://jesselam00.github.io/odin-landing-page/](https://jesselam00.github.io/landing-page/)
+[https://jesselam00.github.io/landing-page/](https://jesselam00.github.io/landing-page/)
 
 This project was to practice my front-end development using vanilla HTML and CSS. Please check it out!
 
